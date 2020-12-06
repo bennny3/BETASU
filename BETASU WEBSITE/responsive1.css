@@ -1,0 +1,384 @@
+/* ukuran desktop */
+@media screen and (min-width:1200px){
+    .bg{
+        height: 5000px;
+    }
+    .naviga a{
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .social1 img{
+        width: 15%;
+        margin-top: 5px;
+    }
+    .social2 img{
+        width: 15%;
+        margin-top: 5px;
+    }
+    .social3 img{
+        width: 16%;
+        margin-top: 3.5px;
+    }
+    .social4 img{
+        width: 15%;
+        margin-top: 3.5px;
+        margin-left: 5px;
+    }
+    .socia img{
+        z-index: 1;
+        width: 6%; 
+    }
+    .socia1 img{
+        z-index: 1;
+        width: 5.5%; 
+        margin-top: 2px;
+    }
+    .socia2 img{
+        z-index: 1;
+        width: 6%;
+        margin-top: 5px;
+    }
+    .socia3 img{
+        z-index: 1;
+        width: 5.5%;
+        margin-top: 10px;
+    }
+    .beta img{
+        width: 20%;
+        margin-left: 10px;
+        margin-top: 10px; 
+    }
+    .beta1 img{
+        width: 2%;
+        margin-left: 5px;
+        margin-top: 10px; 
+    }
+    .beta2 span{
+        height: 15px;
+        margin-left: 5px;
+        margin-top: 5px; 
+    }
+    .beta3 p{
+        margin-left: 5px;
+        margin-top: 10px; 
+    }
+    .beta4 img{
+        width: 1%;
+        margin-left: 9px;
+        margin-top: 10px; 
+    }
+    .what{
+        display: flex;
+    }
+    .what img:first-child{
+        z-index: 1;
+        width: 35%;
+        margin-top: -1550px;
+        margin-left: -150px;
+    }
+    .what img:nth-child(2){
+        z-index: 1;
+        position: absolute;
+        top: -3700px;
+        right: 480px;
+        width: 2.5%;
+    }
+    .what h3{
+       font-size: 56px;
+       text-align: center;
+        left: 110px;
+        position: absolute;
+        top: -3700px;
+        right: 100px;
+    }
+    .what p{
+        z-index: 1;
+        position: absolute;
+        top: -3600px;
+        right: 270px;
+        width: 550px;
+        text-align: left;
+        font-size: 22px;
+    }
+    .what span{
+        z-index: 0;
+        position: absolute;
+        top: -3900px;
+       left: 250px;
+        width: 500px;
+        height: 500px;
+        border: solid 2px white;
+        border-radius: 1000px;
+    }
+    .siapa {
+        display: flex;
+    }
+    .siapa img:first-child{
+        position: absolute;
+        top: -2705px;
+        right: 250px;
+    }
+    .siapa img:nth-child(2){
+        z-index: 1;
+        position: absolute;
+        top: -2490px;
+        right: 640px;
+        width: 2%;
+    }
+    .siapa h3{
+        z-index: 1;
+        position: absolute;
+        top: -2500px;
+        left: 350px;
+        
+    }
+    .siapa p{
+        z-index: 1;
+        position: absolute;
+        top: -2400px;
+        left: 350px;
+        font-size: 22px;
+        width: 500px;
+    }
+    .siapa span{
+        position: absolute;
+        top: -2655px;
+        right: 350px;
+        z-index: 0;
+        width: 500px;
+        height: 500px;
+        border: solid 2px white;
+        border-radius: 1000px;
+    }
+}
+
+/* ukuran hp */
+@media screen and (max-width:767px){
+    .bg{
+        height: 3500px;
+    }
+    .navbar ul{
+        display: flex;
+        width: 200%;
+    }
+    .navbar a{
+        font-size: 16px;
+        position: relative;
+        left: -50px;
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        left: -50px;
+    }
+    .logo{
+        display:flex;
+        position: relative;
+    }
+    .logo img{
+        width: 80px;
+        height: 75px;
+        position: absolute;
+        left: 0px;
+        top: -30px;
+    }
+    .menu-btn{
+        display: flex;
+        position: relative;
+        right: -40px;
+    }
+    .naviga a{
+        display: flex;
+        font-size: 24px;
+    }
+    .naviga a:hover{
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: white;
+        color: black;
+    } 
+    .naviga .closebtn{
+        display: flex;
+    }
+    .social1 img{
+        margin-top: -500px;
+        margin-left: -70px;
+        width: 31%;
+    }
+    .social2 img{
+        margin-top: -533px;
+        margin-left: -113px;
+        width: 30%;
+    }
+    .social3 img{
+        margin-top: -561px;
+        margin-left: -155px;
+        width: 32%;
+    }
+    .social4 img{
+        margin-top: -592px;
+        margin-left: -196px;
+        width: 30%;
+    }
+    .home h3{
+        font-size: 120px;
+        z-index: 0;
+        font-size: 110px;
+        margin-top: 650px;
+        margin-left: -150px;
+    }
+    .home h4{
+        display: none;
+    }
+    .home-1 img{
+        z-index: 0;
+        width: 400px;
+        height: 210px;
+        left: 40px;
+        margin-top: 1500px;
+    }
+    .scroll{
+        display: none;
+    }
+    
+    .beta img{
+        width: 40%;
+        margin-left: 260px;
+        margin-top: 40px; 
+    }
+    .beta1 img{
+        width: 4%;
+        margin-left: 194px;
+        margin-top: 8px; 
+    }
+    .beta2 span{
+        display: none;
+    }
+    .beta3 p{
+        display: none;
+    }
+    .beta4 img{
+       display: none;
+    }
+    .socia img{
+        z-index: 1;
+        width: 12.5%;  
+    }
+    .socia1 img{
+        z-index: 1;
+        width: 12%; 
+        margin-top: -20px;
+    }
+    .socia2 img{
+        z-index: 1;
+        width: 12.5%;
+        margin-top: -35px;
+    }
+    .socia3 img{
+        z-index: 1;
+        width: 12%;
+        margin-top: -50px;
+    }
+    
+    .bawah h3{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 22px;
+    }
+    .bawah p:nth-child(2){
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        text-align: left;
+    }
+    .bawah p:nth-child(3){
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        text-align: left; 
+    }
+    .bawah p:last-child{
+        position: absolute;
+        top: 130px;
+        left: 30px;
+        text-align: left;
+        font-family: 'Montserrat',sans-serif; 
+        font-weight: 200;
+    }
+    .what{
+        display: flex;
+    }
+    .what img:first-child{
+        z-index: 0;
+        width: 60%;
+        margin-top: -350px;
+        margin-left: -150px;
+    }
+    .what img:nth-child(2){
+        z-index: 1;
+        width: 4%;
+        position: absolute;
+        left: 385px;
+        top: -2370px;
+    }
+    .what h3{
+       font-size: 46px;
+       text-align: center;
+        left: 110px;
+        margin-top: -170px;
+        width: 300px;
+    }
+    .what p{
+        left: 70px;
+        margin-top: -160px;
+        width: 400px;
+        text-align: center;
+    }
+    .what span{
+        display: none;
+    }
+    .siapa{
+        display: flex;
+    }
+    .siapa img:first-child{
+        z-index: 0;
+        width: 60%;
+        top: -1850px;
+        position: absolute;
+        left: 110px;
+    }
+    .siapa img:nth-child(2){
+        z-index: 1;
+        width: 4%;
+        position: absolute;
+        left: 385px;
+        top: -1445px;
+    }
+    .siapa h3{
+        font-size: 46px;
+       text-align: center;
+        left: 110px;
+        margin-top: 750px;
+        width: 300px;
+    }
+    .siapa p{
+        left: 70px;
+        margin-top: 760px;
+        width: 400px;
+        text-align: center;
+    }
+    .siapa span{
+        display: none;
+    }
+   
+   
+    .lingkar{
+        display: none;
+    }
+    .foot{
+        z-index: 1;
+        position: absolute;
+        top: 160px;
+        left: -530px;
+    }
+}
